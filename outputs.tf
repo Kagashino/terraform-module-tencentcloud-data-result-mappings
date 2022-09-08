@@ -281,6 +281,11 @@ output "cynosdb_instances" {
   value = "instance_list"
 }
 
+# A list of zone.
+output "cynosdb_zone_config" {
+  value = "list"
+}
+
 # A list of CC http policies.
 output "dayu_cc_http_policies" {
   value = "list"
@@ -514,6 +519,11 @@ output "mongodb_instances" {
 # A list of zone config.
 output "mongodb_zone_config" {
   value = "list"
+}
+
+# Alarm notification template list.
+output "monitor_alarm_notices" {
+  value = "alarm_notice"
 }
 
 # A list objects.
@@ -764,6 +774,11 @@ output "tcr_tokens" {
 # Information list of the dedicated TCR namespaces.
 output "tcr_vpc_attachments" {
   value = "vpc_attachment_list"
+}
+
+# Available plans for a zone.
+output "teo_zone_available_plans" {
+  value = "plan_info_list"
 }
 
 # A list of adaptive dynamic streaming templates.

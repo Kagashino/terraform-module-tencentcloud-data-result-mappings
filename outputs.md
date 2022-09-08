@@ -60,6 +60,7 @@
 | cos_buckets | `bucket_list` | A list of bucket. |
 | cynosdb_clusters | `cluster_list` | A list of clusters. |
 | cynosdb_instances | `instance_list` | A list of instances. |
+| cynosdb_zone_config | `list` | A list of zone. |
 | dayu_cc_http_policies | `list` | A list of CC http policies. |
 | dayu_cc_https_policies | `list` | A list of CC https policies. |
 | dayu_ddos_policies | `list` | A list of DDoS policies. |
@@ -107,6 +108,7 @@
 | kubernetes_clusters | `list` | An information list of kubernetes clusters. |
 | mongodb_instances | `instance_list` | A list of instances. |
 | mongodb_zone_config | `list` | A list of zone config. |
+| monitor_alarm_notices | `alarm_notice` | Alarm notification template list. |
 | monitor_binding_objects | `list` | A list objects. |
 | monitor_data | `list` | A list data point. |
 | monitor_policy_conditions | `list` | A list policy condition. |
@@ -157,6 +159,7 @@
 | tcr_repositories | `repository_list` | Information list of the dedicated TCR repositories. |
 | tcr_tokens | `token_list` | Information list of the dedicated TCR tokens. |
 | tcr_vpc_attachments | `vpc_attachment_list` | Information list of the dedicated TCR namespaces. |
+| teo_zone_available_plans | `plan_info_list` | Available plans for a zone. |
 | vod_adaptive_dynamic_streaming_templates | `template_list` | A list of adaptive dynamic streaming templates. |
 | vod_image_sprite_templates | `template_list` | A list of image sprite templates. |
 | vod_procedure_templates | `template_list` | A list of adaptive dynamic streaming templates. |
